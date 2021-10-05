@@ -1,3 +1,5 @@
+package com.example.puttern;
+
 public class SquarePattern implements Pattern {
     @Override
     public String build(char symbol) {
