@@ -10,7 +10,7 @@ public class Main {
         var patterns = new ArrayList<Pattern>();
 
         patterns.add(new PyramidPattern());
-        patterns.add(new PyramidPattern());
+        patterns.add(new SquarePattern());
 
         for (int i = 0; i < patterns.size(); i++) {
             System.out.println(i+1+". Pattern:");
