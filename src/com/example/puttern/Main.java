@@ -9,12 +9,12 @@ public class Main {
 
         var patterns = new ArrayList<Pattern>();
 
-        patterns.add(symbol -> "lol");
+        patterns.add(new PyramidPattern());
+        patterns.add(new PyramidPattern());
 
         for (int i = 0; i < patterns.size(); i++) {
             System.out.println(i+1+". Pattern:");
             patterns.get(i).draw('*');
-            System.out.println();
         }
     }
 }
